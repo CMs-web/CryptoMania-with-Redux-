@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/api/user";
+const API_URL = "https://auth-backend-93eo.onrender.com/api/user";
 
 const registerUser = async (formData) => {
     const response = await axios.post(API_URL + "/register", formData);
