@@ -2,7 +2,7 @@ import axios from "axios";
 
 const registerUser = async (formData) => {
   const response = await axios.post(
-    "https://authentication-2-qzge.onrender.com/api/user/register",
+    "https://authentication-2-qgze.onrender.com/api/user/register",
     formData
   );
   localStorage.setItem("user", JSON.stringify(response.data));
@@ -10,7 +10,7 @@ const registerUser = async (formData) => {
 };
 const loginUser = async (formData) => {
   const response = await axios.post(
-    "https://authentication-2-qzge.onrender.com/api/user/login",
+    "https://authentication-2-qgze.onrender.com/api/user/login",
     formData
   );
   localStorage.setItem("user", JSON.stringify(response.data));
