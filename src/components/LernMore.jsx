@@ -69,12 +69,6 @@ const LernMore = () => {
         >
           Back
         </Button>
-        <Button
-          variant="contained"
-          sx={{ marginLeft: "20px", marginTop: "20px" }}
-        >
-          Go to cart
-        </Button>
       </CardContent>
     </Card>
   );
